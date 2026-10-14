@@ -45,7 +45,7 @@ ABI = [
             }
         ],
         "stateMutability": "view",
-        "type": "function"
+        "": "function"
     }
 ]
 
