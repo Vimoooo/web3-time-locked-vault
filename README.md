@@ -7,7 +7,7 @@ CONTRACT_ADDRESS = os.getenv("CONTRACT_ADDRESS")
 
 if not all([RPC_URL, PRIVATE_KEY, CONTRACT_ADDRESS]):
     raise RuntimeError(
-        "Missing environment variables."
+        "Missing environment "
     )
 
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
